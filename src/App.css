@@ -4,37 +4,6 @@
     box-sizing: border-box;
 }
 
-.resetButton{
-    border: 1px solid #07075c;
-    padding: 20px 40px;
-    border-radius: 15px;
-    background-color: #07075c;
-    color: white;
-
-}
-.minButton{
-    border: 1px solid #881515;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: white;
-    background-color: #881515;
-}
-.reset{
-    position: absolute;
-    top: 400px;
-    left: 750px;
-}
-
-
-.plusButton{
-    border: 1px solid #155a15;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: white;
-    background-color: #155a15;
-}
 
 h2{
     font-family: "Cambria Math", sans-serif;
@@ -53,14 +22,4 @@ span{
     font-size: 2em;
     font-family: "Courier New", "Segoe Script";
 }
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 200px;
-    border: 2px solid black;
 
-    color: black;
-    row-gap: 20px;
-}

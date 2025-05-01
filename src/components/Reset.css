@@ -1,0 +1,14 @@
+.reset{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+
+.resetButton{
+    border: 1px solid #07075c;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: #07075c;
+    color: white;
+
+}

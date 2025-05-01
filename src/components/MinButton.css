@@ -1,0 +1,8 @@
+.minButton{
+    border: 1px solid #881515;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #881515;
+}
