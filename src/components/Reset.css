@@ -1,7 +1,7 @@
 .reset{
-    position: absolute;
-    top: 400px;
-    left: 750px;
+    position: relative;
+    top: 10px;
+    left: 475px;
 }
 
 .resetButton{

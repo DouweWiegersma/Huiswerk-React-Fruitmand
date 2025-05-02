@@ -1,5 +1,6 @@
 import "./MinButton.css"
-function MinButtonKiwis( {fruit, setFruit}){
+
+function MinButton( { fruit, setFruit } ){
     return(
         <button className="minButton"
         onClick={() => setFruit(prev => ({...prev, [fruit]: Math.max(prev[fruit] - 1, 0)}))}> -
@@ -7,4 +8,4 @@ function MinButtonKiwis( {fruit, setFruit}){
     )
 }
 
-export default MinButtonKiwis
+export default MinButton
