@@ -1,15 +1,10 @@
 import './Form.css'
 
 
-
 function Form({handleSubmit, handleChange, formData}) {
-
-
-
 
     return (
         <>
-
             <form onSubmit={handleSubmit}>
                 <h1>Bestel Formulier</h1>
                 <div className="formBox">
@@ -99,8 +94,11 @@ function Form({handleSubmit, handleChange, formData}) {
                     </button>
                 </div>
             </form>
+
         </>
-    )
+    );
 }
+
+
 
 export default Form;

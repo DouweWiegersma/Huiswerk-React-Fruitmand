@@ -40,7 +40,7 @@ function App() {
     };
   return (
       <>
-          <div className="fruitmand">
+          <body>
               <h2>Aardbeien</h2>
               <p className="paragraaf">
                   <PlusButton setFruit={setFruit} fruit="aarbeien"/>
@@ -68,9 +68,11 @@ function App() {
                   <MinButton setFruit={setFruit} fruit="kiwis"/>
               </p>
               <Reset setFruit={setFruit}/>
-          </div>
+              <Form handleSubmit={handleSubmit} handleChange={handleChange} formData={formData} />
+          </body>
 
-          <Form handleSubmit={handleSubmit} handleChange={handleChange} formData={formData}/>
+
+
       </>
 
   )
