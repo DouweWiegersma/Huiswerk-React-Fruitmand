@@ -1,0 +1,9 @@
+
+.plusButton{
+    border: 1px solid #155a15;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #155a15;
+}

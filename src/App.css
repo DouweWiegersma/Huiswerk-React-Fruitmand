@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    width: 100vw;
+    background-color: #070505;
+
+}
+h2
+{
+    font-family: "Cambria Math", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #ffff;
+    text-align: center;
+}
+.paragraaf
+{
+    border: 2px rgba(255, 255, 255, 0.92) dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 200px;
+}
+span
+{
+    font-size: 2em;
+    font-family: sans-serif, "Droid Sans Mono";
+    color: #ffff;
+
+}
+
